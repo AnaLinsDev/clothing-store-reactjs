@@ -1,17 +1,18 @@
+// no terminal foi : npm install firebase
+
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
 
 const config =  {
-    apiKey: "AIzaSyCcwgvEd8V_qqMRsz_PWBU166eAZtevkBU",
-    authDomain: "crwn-db-b70fd.firebaseapp.com",
-    databaseURL: "https://crwn-db-b70fd.firebaseio.com",
-    projectId: "crwn-db-b70fd",
-    storageBucket: "crwn-db-b70fd.appspot.com",
-    messagingSenderId: "1037921808572",
-    appId: "1:1037921808572:web:0679ec4516bcc415ae60b9"
-  };
+  apiKey: "AIzaSyDC6Y5TQ6qYHa3dlWkgmCC8fEWS_-EmQW4",
+  authDomain: "crwn-db-e4f6c.firebaseapp.com",
+  projectId: "crwn-db-e4f6c",
+  storageBucket: "crwn-db-e4f6c.appspot.com",
+  messagingSenderId: "986492972158",
+  appId: "1:986492972158:web:73a8afcdb96ce33ca63c2f"
+};
 
   export const createUserProfileDocument = async (userAuth, additionalData) => {
     if (!userAuth) return;
